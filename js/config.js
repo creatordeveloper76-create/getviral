@@ -3,17 +3,14 @@
 // ===========================
 
 const CONFIG = {
-    // Facebook
-    FACEBOOK_APP_ID: 'YOUR_FACEBOOK_APP_ID', // À remplacer par votre App ID
-    
-    // Cooldown
-    COOLDOWN_MINUTES: 5,
-    
-    // Email
-    EMAIL_ENDPOINT: 'https://formspree.io/f/YOUR_FORMSPREE_ID', // À remplacer par votre Formspree ID
+    // Formspree Email Integration
+    EMAIL_ENDPOINT: 'https://formspree.io/f/mzdwnoag',
     EMAIL_TO: 'creatordeveloper76@gmail.com',
     
-    // Adsterra Codes (Déjà configurés)
+    // Cooldown (minutes)
+    COOLDOWN_MINUTES: 5,
+    
+    // Adsterra Codes (Configurés)
     ADSTERRA: {
         SOCIAL_BAR: '//contributionhobblenewlyweed.com/85/79/68/85798882f7547a50e802e240a6b57936.js',
         NATIVE_BANNER: '//contributionhobblenewlyweed.com/a60b166e2307959d0cea7113e279fd1c/invoke.js',
@@ -21,22 +18,25 @@ const CONFIG = {
         POPUNDER: '//contributionhobblenewlyweed.com/2a/20/8b/2a208b5171bb2ae3a8b0c0b8be70d2.js'
     },
     
-    // Services
+    // Services avec quantités aléatoires
     SERVICES: {
         likes: {
             name: '👍 Likes',
-            min: 19,
-            max: 21
+            quantities: [19, 20, 21],
+            icon: '👍',
+            link: 'https://www.facebook.com/'
         },
         followers: {
             name: '👥 Followers',
-            min: 50,
-            max: 52
+            quantities: [50, 51, 52],
+            icon: '👥',
+            link: 'https://www.facebook.com/'
         },
         views: {
             name: '👁️ Vues',
-            min: 100,
-            max: 102
+            quantities: [100, 101, 102],
+            icon: '👁️',
+            link: 'https://www.facebook.com/'
         }
     }
 };
