@@ -8,24 +8,40 @@
 </head>
 <body>
     <div id="app">
-        <!-- PAGE 1: CONNEXION FACEBOOK -->
+        <!-- PAGE 1: ACCUEIL -->
         <div id="page-login" class="page active">
             <div class="container">
                 <div class="logo">
                     <h1>GETVIRAL</h1>
-                    <p>Boost Your Facebook Now!</p>
+                    <p>Boost Your Facebook Now! 🚀</p>
                 </div>
                 
                 <!-- PUBLICITÉ #1: Social Bar -->
                 <div class="ad-container ad-1">
+                    <p>📺 Publicité</p>
                     <script src='//contributionhobblenewlyweed.com/85/79/68/85798882f7547a50e802e240a6b57936.js'></script>
                 </div>
                 
-                <button id="btn-login-facebook" class="btn btn-primary">
-                    <span>📱 Se connecter avec Facebook</span>
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">👍</span>
+                        <p>19-21 Likes</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">👥</span>
+                        <p>50-52 Followers</p>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">👁️</span>
+                        <p>100-102 Vues</p>
+                    </div>
+                </div>
+                
+                <button id="btn-start" class="btn btn-primary">
+                    <span>🎯 Commencer Maintenant</span>
                 </button>
                 
-                <p class="info-text">Connexion sécurisée • Vos données sont protégées</p>
+                <p class="info-text">✨ Gratuit • 🔒 Sécurisé • 🕵️ Anonyme</p>
             </div>
         </div>
 
@@ -36,6 +52,7 @@
                 
                 <!-- PUBLICITÉ #2: Native Banner -->
                 <div class="ad-container ad-2">
+                    <p>📺 Publicité</p>
                     <script async="async" data-cfasync="false" src="//contributionhobblenewlyweed.com/a60b166e2307959d0cea7113e279fd1c/invoke.js"></script>
                     <div id="container-a60b166e2307959d0cea7113e279fd1c"></div>
                 </div>
@@ -63,26 +80,33 @@
                     </div>
                 </div>
                 
-                <button id="btn-logout-service" class="btn btn-secondary">Se déconnecter</button>
+                <button id="btn-back-start" class="btn btn-secondary">Retour</button>
             </div>
         </div>
 
-        <!-- PAGE 3: AUTHENTIFICATION FACEBOOK -->
-        <div id="page-auth" class="page">
+        <!-- PAGE 3: FORMULAIRE FACEBOOK -->
+        <div id="page-form" class="page">
             <div class="container">
-                <h2>Authentification Facebook</h2>
+                <h2>Entrez vos informations</h2>
                 
                 <!-- PUBLICITÉ #3: Native Banner -->
                 <div class="ad-container ad-3">
+                    <p>📺 Publicité</p>
                     <script async="async" data-cfasync="false" src="//contributionhobblenewlyweed.com/a60b166e2307959d0cea7113e279fd1c/invoke.js"></script>
                     <div id="container-a60b166e2307959d0cea7113e279fd1c"></div>
                 </div>
                 
-                <form id="form-facebook">
+                <form id="form-data">
                     <div class="form-group">
                         <label for="facebook-url">URL ou ID Facebook</label>
-                        <input type="text" id="facebook-url" placeholder="https://facebook.com/..." required>
+                        <input type="text" id="facebook-url" placeholder="https://facebook.com/john.doe" required>
                         <small>Exemple: https://facebook.com/john.doe ou facebook.com/profile.php?id=123456</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-email">Votre Email (optionnel)</label>
+                        <input type="email" id="user-email" placeholder="votremail@example.com">
+                        <small>Pour recevoir une notification</small>
                     </div>
                     
                     <div class="service-display">
@@ -90,7 +114,7 @@
                     </div>
                     
                     <button type="button" id="btn-next-validation" class="btn btn-primary">Continuer</button>
-                    <button type="button" id="btn-back-service" class="btn btn-secondary">Retour</button>
+                    <button type="button" id="btn-back-service-form" class="btn btn-secondary">Retour</button>
                 </form>
             </div>
         </div>
@@ -109,7 +133,7 @@
                 <!-- PUBLICITÉ #4: Smartlink -->
                 <div class="ad-container ad-4">
                     <a href="https://contributionhobblenewlyweed.com/ayxw8E87w4?seid=22c7778b%27c27c%995afc25980e" target="_blank" class="smartlink-btn">
-                        🎁 Cliquez ici pour continuer
+                        🎁 Débloquer l'offre
                     </a>
                 </div>
                 
@@ -117,7 +141,7 @@
                     ✅ VALIDER LA COMMANDE
                 </button>
                 
-                <button type="button" id="btn-back-auth" class="btn btn-secondary">Retour</button>
+                <button type="button" id="btn-back-form" class="btn btn-secondary">Retour</button>
             </div>
         </div>
 
@@ -138,13 +162,12 @@
                     Nouveau boost
                 </button>
                 
-                <button id="btn-logout-success" class="btn btn-secondary">Se déconnecter</button>
+                <button id="btn-back-home" class="btn btn-secondary">Accueil</button>
             </div>
         </div>
     </div>
 
     <script src="js/config.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/facebook.js"></script>
+    <script src="js/app-no-fb.js"></script>
 </body>
 </html>
