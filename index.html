@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETVIRAL - Boost Your Facebook</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- PAGE 1: CONNEXION FACEBOOK -->
+        <div id="page-login" class="page active">
+            <div class="container">
+                <div class="logo">
+                    <h1>GETVIRAL</h1>
+                    <p>Boost Your Facebook Now!</p>
+                </div>
+                
+                <!-- PUBLICITÉ #1: Social Bar -->
+                <div class="ad-container ad-1">
+                    <script src='//contributionhobblenewlyweed.com/85/79/68/85798882f7547a50e802e240a6b57936.js'></script>
+                </div>
+                
+                <button id="btn-login-facebook" class="btn btn-primary">
+                    <span>📱 Se connecter avec Facebook</span>
+                </button>
+                
+                <p class="info-text">Connexion sécurisée • Vos données sont protégées</p>
+            </div>
+        </div>
+
+        <!-- PAGE 2: CHOIX SERVICE -->
+        <div id="page-service" class="page">
+            <div class="container">
+                <h2>Choisir un service</h2>
+                
+                <!-- PUBLICITÉ #2: Native Banner -->
+                <div class="ad-container ad-2">
+                    <script async="async" data-cfasync="false" src="//contributionhobblenewlyweed.com/a60b166e2307959d0cea7113e279fd1c/invoke.js"></script>
+                    <div id="container-a60b166e2307959d0cea7113e279fd1c"></div>
+                </div>
+                
+                <div class="service-grid">
+                    <div class="service-card" data-service="likes">
+                        <div class="service-icon">👍</div>
+                        <h3>Likes</h3>
+                        <p>19 - 21 Likes</p>
+                        <button class="btn btn-service">Choisir</button>
+                    </div>
+                    
+                    <div class="service-card" data-service="followers">
+                        <div class="service-icon">👥</div>
+                        <h3>Followers</h3>
+                        <p>50 - 52 Followers</p>
+                        <button class="btn btn-service">Choisir</button>
+                    </div>
+                    
+                    <div class="service-card" data-service="views">
+                        <div class="service-icon">👁️</div>
+                        <h3>Vues</h3>
+                        <p>100 - 102 Vues</p>
+                        <button class="btn btn-service">Choisir</button>
+                    </div>
+                </div>
+                
+                <button id="btn-logout-service" class="btn btn-secondary">Se déconnecter</button>
+            </div>
+        </div>
+
+        <!-- PAGE 3: AUTHENTIFICATION FACEBOOK -->
+        <div id="page-auth" class="page">
+            <div class="container">
+                <h2>Authentification Facebook</h2>
+                
+                <!-- PUBLICITÉ #3: Native Banner -->
+                <div class="ad-container ad-3">
+                    <script async="async" data-cfasync="false" src="//contributionhobblenewlyweed.com/a60b166e2307959d0cea7113e279fd1c/invoke.js"></script>
+                    <div id="container-a60b166e2307959d0cea7113e279fd1c"></div>
+                </div>
+                
+                <form id="form-facebook">
+                    <div class="form-group">
+                        <label for="facebook-url">URL ou ID Facebook</label>
+                        <input type="text" id="facebook-url" placeholder="https://facebook.com/..." required>
+                        <small>Exemple: https://facebook.com/john.doe ou facebook.com/profile.php?id=123456</small>
+                    </div>
+                    
+                    <div class="service-display">
+                        <p><strong>Service sélectionné:</strong> <span id="service-name"></span></p>
+                    </div>
+                    
+                    <button type="button" id="btn-next-validation" class="btn btn-primary">Continuer</button>
+                    <button type="button" id="btn-back-service" class="btn btn-secondary">Retour</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- PAGE 4: VALIDATION COMMANDE -->
+        <div id="page-validation" class="page">
+            <div class="container">
+                <h2>Valider votre commande</h2>
+                
+                <div class="validation-summary">
+                    <p><strong>Service:</strong> <span id="val-service"></span></p>
+                    <p><strong>URL Facebook:</strong> <span id="val-url"></span></p>
+                    <p><strong>Quantité:</strong> <span id="val-quantity"></span> (aléatoire)</p>
+                </div>
+                
+                <!-- PUBLICITÉ #4: Smartlink -->
+                <div class="ad-container ad-4">
+                    <a href="https://contributionhobblenewlyweed.com/ayxw8E87w4?seid=22c7778b%27c27c%995afc25980e" target="_blank" class="smartlink-btn">
+                        🎁 Cliquez ici pour continuer
+                    </a>
+                </div>
+                
+                <button id="btn-validate-order" class="btn btn-primary btn-large">
+                    ✅ VALIDER LA COMMANDE
+                </button>
+                
+                <button type="button" id="btn-back-auth" class="btn btn-secondary">Retour</button>
+            </div>
+        </div>
+
+        <!-- PAGE 5: SUCCÈS -->
+        <div id="page-success" class="page">
+            <div class="container">
+                <div class="success-box">
+                    <div class="success-icon">✅</div>
+                    <h2>Commande validée!</h2>
+                    <p>Votre commande a été enregistrée avec succès.</p>
+                    <p class="countdown">Prochain boost disponible dans: <span id="countdown">05:00</span></p>
+                </div>
+                
+                <!-- PUBLICITÉ #5: Popunder -->
+                <script src='//contributionhobblenewlyweed.com/2a/20/8b/2a208b5171bb2ae3a8b0c0b8be70d2.js'></script>
+                
+                <button id="btn-new-boost" class="btn btn-primary" disabled>
+                    Nouveau boost
+                </button>
+                
+                <button id="btn-logout-success" class="btn btn-secondary">Se déconnecter</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/facebook.js"></script>
+</body>
+</html>
