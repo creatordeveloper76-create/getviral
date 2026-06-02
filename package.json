@@ -1,0 +1,27 @@
+{
+  "name": "getviral",
+  "version": "1.0.0",
+  "description": "Facebook Boost Platform with Adsterra Ads - Likes, Followers, Views",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "start": "python -m http.server 3000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "facebook",
+    "boost",
+    "likes",
+    "followers",
+    "views",
+    "adsterra"
+  ],
+  "author": "creatordeveloper76",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creatordeveloper76-create/getviral.git"
+  },
+  "homepage": "https://getviral.vercel.app",
+  "dependencies": {}
+}
